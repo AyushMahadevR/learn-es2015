@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is heading</h1>    
+    <hr>
+    <div id="template"></div>
+    <script>
+       // var a = "hello";
+        //let b = 'this is the new world regeme';
+       /* function testVar(){
+            var a = 30;
+            if(true){
+                var a = 50;
+                console.log(a);
+            }
+            console.log(a);
+        }
+        function testLet(){
+            let a = 30;
+            if(true){
+                let a = 50;
+                console.log(a);
+            }
+            console.log(a);
+ }
+        for(var i = 0 ; i < 10 ; i++){
+            console.log(i);
+ }*/
+        //console.log(i);
+
+        //testLet();
+/*
+        const colors = [];
+        colors.push('red');
+        colors.push('green');
+        colors.pop();
+        console.log(colors);
+*/
+  /*  class User{
+        constructor(username,email,password){
+            this.username = username;
+            this.email = email;
+            this.password = password;
+        }
+        static countUsers(){
+            console.log('There are 50 users');
+        }
+        register(){
+            console.log(this.username +' is now registered');
+        }
+    }
+    //let bob = new User('Bob','bob@gmail.com','bob2017');
+    //bob.register();
+   // User.countUsers();  //static methods dont need the class to be initialized to be used . its would be same all the time/
+    class Member extends User{
+        constructor(username,email,password,memberPackage){
+        super(username,email,password);
+        this.package = memberPackage;
+        }
+        getPackage(){
+            console.log(this.username+' is subscribed to the '+ this.package);
+        }
+    }
+    let mike = new Member('mike','mike@gmail.com','mike2017','Premium');
+   // mike.getPackage();
+   mike.register();
+    let name = 'Sandeep';
+
+    function makeUppercase(word){
+        return word.toUpperCase();
+    }
+
+ let template = `
+<h1>${makeUppercase('Hello')} ,${name}</h1>
+    <p>This is a simple template in javascript.</p>`;
+
+    document.getElementById('template').innerHTML = template;
+*//*
+    let theString = 'Hello , my name is amr , i love javascript';
+    //startsWith()
+    //endsWith()
+    //includes()
+
+    //console.log(theString.startsWith('Hello'));
+    //console.log(theString.endsWith('javascript'));
+    //console.log(theString.includes('amr'));
+    /*number features for numbers */
+    //hex
+    //console.log(0xFF);
+    //binary
+    //console.log(0b101011);
+    //octal
+    //console.log(0o543);
+    
+    //console.log(Number.isFinite(3));
+    //console.log(Number.isNaN(NaN));
+    //console.log(Number.isInteger(-46554));*/
+
+    /*default parameters*/
+
+   /* function greet($greeting = 'hwll    '){
+        console.log($greeting);
+    }
+    greet(); *//*
+    
+    let args1 = [1,2,3];
+    let args2 = [4,5,6];
+
+    
+    function test(){
+        console.log(args1+','+args2);
+    }
+    //test.apply(null,args);  no need now
+    //test(...args1,...args2);
+    //test();*/
+/*
+    let myArray = [11,24,64,45,23];
+    let mySet = new Set(myArray);
+    mySet.add('100');
+ mySet.add({a:1,b:2});
+    mySet.delete(24);
+    
+    //console.log(mySet.size);
+    mySet.forEach(function(val){
+        console.log(val);
+    });
+*///maps key value pairs // sets is single  
+  /*  let myMap = new Map([['a1','hello'],['b2','Goodbye']]);
+    myMap.set('c3','Foo');   //add
+    myMap.delete('a1');
+    
+    console.log(myMap.size);*/
+   /* let carweakset = new WeakSet();
+    let car1 = {
+        make:'Honda',
+        model:'civic'
+    }
+    carweakset.add(car1);
+ let car2 = { make:'Toyota', model:'Camery' } 
+ carweakset.add(car2);
+    carweakset.delete(car1);
+    console.log(carweakset);*/
+/*
+    let carWeakMap = new WeakMap();
+    let key1 = {
+        id:1
+    }
+ let car1 = { make:'Honda', model:'civic' }
+ let key2 = { id:2 } 
+ let car2 = { make:'Toyota', model:'Canary' }
+  carWeakMap.set(key1,car1);
+ carWeakMap.set(key2,car2);
+ carWeakMap.delete(key1);
+  console.log(carWeakMap);*/
+  /*let add = (a,b) =>{
+      let sum = a+ b;
+      console.log(sum);
+      return false ;
+  }
+  add(55,64);*///promises 
+  
+    </script>
+</body>
+</html>
